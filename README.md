@@ -10,3 +10,16 @@ This repository contains the code and experimental results for analyzing data le
 - `figures/`: A collection of visualizations and evaluation plots.
 - `Colab_Stunting_Framework.ipynb`: The main Jupyter Notebook to run the framework interactively.
 - `data/`: *(Private)* This directory is used locally to store the confidential dataset. **The dataset is not included on GitHub for privacy reasons**. To run the code in Colab, please upload the appropriate dataset manually.
+
+## Dataset Overview (Exploratory Data Analysis)
+The private dataset used in this project is based on the **Indonesian Health Survey (SKI) 2023 for Toddlers (0-59 months)**.
+
+- **Total Samples:** 86,364 records (toddlers)
+- **Total Variables:** 171 features
+- **Key Feature Categories:**
+  - **Geographic & Sampling:** Province, Regency/City, Urban/Rural classification (*Klasifikasi Desa/Kelurahan*), and weighting factors (*Penimbang Populasi*).
+  - **Demographics:** Gender, Birth Date, and Socioeconomic indicators of parents (Highest Education, Employment Status).
+  - **Health Indicators:** Medical diagnoses such as Tuberculosis (TBC), Hepatitis, Asthma, and Health Insurance ownership.
+  - **Anthropometric Measures:** Measurements used for stunting risk assessment and policy tradeoff analysis.
+
+> **Privacy Note:** Due to the sensitive nature of the demographic and health information, the raw dataset is kept strictly confidential and is **not** included in this public repository.
