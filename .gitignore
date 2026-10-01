@@ -1,0 +1,9 @@
+# Mengabaikan folder data agar tidak pernah ter-upload ke GitHub
+data/
+data/*
+
+# Mengabaikan file log
+*.log
+
+# Mengabaikan file sistem mac
+.DS_Store
