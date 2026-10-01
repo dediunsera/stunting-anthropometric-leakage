@@ -2,11 +2,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dediunsera/stunting-anthropometric-leakage/blob/main/Colab_Stunting_Framework.ipynb)
 
-Repository ini berisi kode dan hasil eksperimen untuk menganalisis kebocoran data (data leakage) pada pengukuran antropometri terkait *stunting*.
+This repository contains the code and experimental results for analyzing data leakage in anthropometric measurements related to stunting.
 
-## Struktur Direktori
-- `scripts/`: Berisi sekumpulan script Python untuk mempersiapkan data, pelatihan model, evaluasi, dan plotting gambar.
-- `results/`: Output hasil eksperimen berupa tabel CSV, metrik model, dan file log.
-- `figures/`: Kumpulan gambar visualisasi hasil evaluasi.
-- `Colab_Stunting_Framework.ipynb`: Jupyter Notebook utama untuk menjalankan *framework* secara interaktif.
-- `data/`: *(Privat)* Direktori ini digunakan untuk menyimpan dataset rahasia secara lokal. **Dataset tidak disertakan di GitHub demi privasi**. Untuk menjalankan kode di Colab, silakan unggah dataset yang sesuai secara manual.
+## Directory Structure
+- `scripts/`: Contains a collection of Python scripts for data preparation, model training, evaluation, and plotting.
+- `results/`: Experimental output including CSV tables, model metrics, and log files.
+- `figures/`: A collection of visualizations and evaluation plots.
+- `Colab_Stunting_Framework.ipynb`: The main Jupyter Notebook to run the framework interactively.
+- `data/`: *(Private)* This directory is used locally to store the confidential dataset. **The dataset is not included on GitHub for privacy reasons**. To run the code in Colab, please upload the appropriate dataset manually.
