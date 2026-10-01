@@ -1,0 +1,78 @@
+features 121 (cat 101, num 20)
+/home/claude/work/project/scripts/02_ml_screening.py:49: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  df["split"] = split
+             n  n_psu  prev_unw    prev_w
+split                                    
+dev      61971  24366  0.238402  0.222025
+holdout   6784   2459  0.207252  0.190144
+test     15451   6092  0.235907  0.217752
+/home/claude/work/project/scripts/02_ml_screening.py:110: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  dev["child_weight_kg"] = np.nan  # placeholder, filled below from raw
+/home/claude/work/project/scripts/02_ml_screening.py:113: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d["child_weight_kg"] = d["ID ART"].map(raw).values
+LR (unweighted)              OOF AUROC 0.6399  (1s)
+LR (survey-weighted)         OOF AUROC 0.6338  (1s)
+RF (survey-weighted)         OOF AUROC 0.6426  (2s)
+HGB (unweighted)             OOF AUROC 0.6584  (2s)
+HGB (survey-weighted)        OOF AUROC 0.6504  (2s)
+HGB weighted + child height & weight (LEAKY)  OOF 0.9977 test 0.9986 (1s)
+HGB weighted, random (non-grouped) CV         OOF 0.6544 test 0.6594 (1s)
+HGB weighted, without birth anthropometry     OOF 0.6263 test 0.6304 (1s)
+                   model   auroc  auroc_lo  ...  ece_hi   brier   auprc
+0        LR (unweighted)  0.6518    0.6334  ...  0.0173  0.1612  0.3473
+1   LR (survey-weighted)  0.6469    0.6280  ...  0.0194  0.1621  0.3374
+2   RF (survey-weighted)  0.6483    0.6302  ...  0.0182  0.1618  0.3404
+3       HGB (unweighted)  0.6658    0.6484  ...  0.0214  0.1598  0.3576
+4  HGB (survey-weighted)  0.6594    0.6416  ...  0.0201  0.1606  0.3515
+
+[5 rows x 9 columns]
+selected model: HGB (unweighted) {'LR (unweighted)': 0.639865288131551, 'LR (survey-weighted)': 0.6337703126309489, 'RF (survey-weighted)': 0.6426057552266484, 'HGB (unweighted)': 0.6583697171346131, 'HGB (survey-weighted)': 0.650418777035874}
+locked risk threshold 0.21342115131429237
+  partition  threshold  flagged_high_w_pct  ...  specificity    ppv    npv
+0      test      0.213              47.045  ...        0.582  0.305  0.860
+1      hold      0.213              47.795  ...        0.581  0.289  0.901
+
+[2 rows x 7 columns]
+                      group      n  auroc  ...  auroc_hi    ece  cal_intercept
+0                Age 0-5 mo   1742  0.730  ...     0.786  0.035         -0.262
+1               Age 6-23 mo   6094  0.658  ...     0.684  0.022         -0.092
+2              Age 24-59 mo  14399  0.662  ...     0.677  0.009         -0.017
+3                      Boys  11377  0.673  ...     0.692  0.011         -0.048
+4                     Girls  10858  0.669  ...     0.689  0.016         -0.053
+5                     Urban  11691  0.672  ...     0.691  0.014         -0.072
+6                     Rural  10544  0.661  ...     0.681  0.006         -0.025
+7               Locked test  15451  0.666  ...     0.680  0.010         -0.017
+8           Spatial holdout   6784  0.701  ...     0.723  0.032         -0.204
+9   Holdout: Sumatera Barat   3474  0.662  ...     0.690  0.013         -0.033
+10            Holdout: Bali   1551  0.650  ...     0.710  0.099         -0.980
+11          Holdout: Maluku   1759  0.672  ...     0.702  0.029          0.089
+
+[12 rows x 7 columns]
+                         domain  n_features  auroc_drop      sd
+0    Birth, ANC & neonatal care          22      0.0624  0.0057
+1                         Child          17      0.0489  0.0041
+6          Maternal / caregiver          17      0.0159  0.0019
+4                Housing & area           6      0.0086  0.0011
+7                          WASH          23      0.0070  0.0022
+3          Household demography           7      0.0043  0.0020
+5  Infant & young child feeding          25      0.0026  0.0008
+2         Health-service access           4      0.0003  0.0009
+                                               feature  ... auroc_drop
+118                                         age_months  ...     0.0396
+24   I05.a.\tBerapa berat badan [NAMA] saat dilahirkan  ...     0.0250
+25     I07.Berapa panjang badan [NAMA] saat dilahirkan  ...     0.0116
+2                    11. Kepemilikan Jaminan Kesehatan  ...     0.0058
+119                                                sex  ...     0.0057
+76                            J03.b.Lingkar Perut (Cm)  ...     0.0038
+115  2.Luas lantai bangunan rumah  (BULATKAN DALAM ...  ...     0.0032
+111  25.Jenis bahan bangunan utama atap rumah terluas?  ...     0.0030
+48               I16.Apakah [NAMA] pernah diimunisasi?  ...     0.0022
+20           H29.Dimana tempat persalinan [NAMA ANAK]?  ...     0.0021
+78                      J07.b.Lingkar Lengan Atas (cm)  ...     0.0020
+56   I50.e.Jika Ya, berapa kali [Nama] minum susu? ...  ...     0.0019
+0                              8. Pendidikan tertinggi  ...     0.0017
+74   J01.b.KHUSUS BALITA, Kondisi kesehatan saat pe...  ...     0.0017
+51   150.a.Jika Ya, berapa kali [NAMA] disusui? Jik...  ...     0.0013
+
+[15 rows x 3 columns]
+done in 241s

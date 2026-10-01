@@ -1,0 +1,85 @@
+    age_months    sex  median_cm  sd_cm  SD_per_1cm  cm_equiv_0p10SD
+0            0   Boys     49.884  1.893       0.528            0.189
+1            0  Girls     49.148  1.863       0.537            0.186
+2            3   Boys     61.401  2.044       0.489            0.204
+3            3  Girls     59.777  2.104       0.475            0.210
+4            6   Boys     67.644  2.141       0.467            0.214
+5            6  Girls     65.751  2.267       0.441            0.227
+6           12   Boys     75.739  2.376       0.421            0.238
+7           12  Girls     74.005  2.575       0.388            0.257
+8           18   Boys     82.263  2.697       0.371            0.270
+9           18  Girls     80.712  2.904       0.344            0.290
+10          24   Boys     87.802  3.055       0.327            0.305
+11          24  Girls     86.401  3.225       0.310            0.323
+12          36   Boys     96.089  3.707       0.270            0.371
+13          36  Girls     95.057  3.809       0.263            0.381
+14          48   Boys    103.327  4.194       0.238            0.419
+15          48  Girls    102.731  4.308       0.232            0.431
+16          59   Boys    109.420  4.598       0.217            0.460
+17          59  Girls    108.898  4.721       0.212            0.472
+                 scenario  ...  switch_24-59 mo_pct
+0          Height -1.0 cm  ...                8.903
+1          Height -0.5 cm  ...                4.439
+2          Height +0.5 cm  ...                3.228
+3          Height +1.0 cm  ...                6.208
+4  Position error -0.7 cm  ...                6.180
+5  Position error +0.7 cm  ...                4.507
+6     Draft: HAZ -0.10 SD  ...                3.573
+7     Draft: HAZ -0.05 SD  ...                1.799
+8     Draft: HAZ +0.05 SD  ...                1.317
+9     Draft: HAZ +0.10 SD  ...                2.523
+
+[10 rows x 7 columns]
+sigma 0.5 done
+sigma 1.0 done
+sigma 1.5 done
+sigma_cm                       0.5     1.0     1.5
+misclass_pct_mean            3.275   6.400   9.377
+misclass_pct_lo              3.115   6.198   9.126
+misclass_pct_hi              3.423   6.599   9.606
+false_stunted_pct_mean       1.903   3.872   5.872
+false_stunted_pct_lo         1.788   3.679   5.684
+false_stunted_pct_hi         2.023   4.042   6.060
+missed_stunted_pct_mean      1.373   2.528   3.504
+missed_stunted_pct_lo        1.287   2.366   3.353
+missed_stunted_pct_hi        1.493   2.668   3.653
+prev_obs_pct_mean           22.509  23.322  24.346
+prev_obs_pct_lo             22.333  23.110  24.081
+prev_obs_pct_hi             22.655  23.578  24.626
+misclass_0-5 mo_pct_mean     3.321   6.783  10.381
+misclass_0-5 mo_pct_lo       2.759   6.051   9.379
+misclass_0-5 mo_pct_hi       3.925   7.546  11.412
+misclass_6-23 mo_pct_mean    3.764   7.279  10.637
+misclass_6-23 mo_pct_lo      3.393   6.868  10.169
+misclass_6-23 mo_pct_hi      4.145   7.636  11.161
+misclass_24-59 mo_pct_mean   3.066   5.987   8.731
+misclass_24-59 mo_pct_lo     2.881   5.738   8.364
+misclass_24-59 mo_pct_hi     3.263   6.245   9.030
+    sigma_cm                                            policy  remeasure_burden_pct  errors_captured_pct  yield_pct  misclass_before_pct  misclass_after_pct  error_reduction_pct
+0        0.5             P0 No re-measurement (hard threshold)                 0.000                0.000      0.000                3.291               3.291                0.000
+1        0.5            P1 Draft fixed band HAZ -2 +/- 0.10 SD                 5.504               61.951     37.048                3.291               2.519               23.460
+2        0.5  P2 Fixed band +/- 0.18 SD (budget-matched to P3)                 9.819               84.297     28.255                3.291               2.373               27.913
+3        0.5          P3 Proposed per-child band (alpha = 0.1)                10.312               87.855     28.040                3.291               2.349               28.642
+4        1.0             P0 No re-measurement (hard threshold)                 0.000                0.000      0.000                6.402               6.402                0.000
+5        1.0            P1 Draft fixed band HAZ -2 +/- 0.10 SD                 5.370               36.090     43.028                6.402               5.432               15.149
+6        1.0  P2 Fixed band +/- 0.38 SD (budget-matched to P3)                20.073               86.236     27.506                6.402               4.646               27.434
+7        1.0          P3 Proposed per-child band (alpha = 0.1)                20.061               88.092     28.114                6.402               4.621               27.820
+8        1.5             P0 No re-measurement (hard threshold)                 0.000                0.000      0.000                9.376               9.376                0.000
+9        1.5            P1 Draft fixed band HAZ -2 +/- 0.10 SD                 5.206               25.366     45.691                9.376               8.340               11.041
+10       1.5  P2 Fixed band +/- 0.56 SD (budget-matched to P3)                28.376               85.527     28.259                9.376               6.848               26.956
+11       1.5          P3 Proposed per-child band (alpha = 0.1)                28.825               87.959     28.609                9.376               6.794               27.538
+   true_sigma  assumed_sigma  burden  err_before  capture  err_after  yield_pct
+0         0.5            1.0  20.422       3.271   99.559      2.337     15.948
+1         1.0            1.0  20.022       6.414   87.895      4.643     28.160
+2         1.5            1.0  19.489       9.375   72.435      7.001     34.842
+                     policy age_group  burden  capture
+0       P1 draft +/-0.10 SD    0-5 mo    3.55    23.72
+1       P1 draft +/-0.10 SD  24-59 mo    5.83    41.34
+2       P1 draft +/-0.10 SD   6-23 mo    4.76    29.60
+3       P2 fixed +/-0.38 SD    0-5 mo   13.76    69.86
+4       P2 fixed +/-0.38 SD  24-59 mo   21.73    91.97
+5       P2 fixed +/-0.38 SD   6-23 mo   17.95    78.70
+6  P3 proposed (alpha=0.10)    0-5 mo   22.54    89.46
+7  P3 proposed (alpha=0.10)  24-59 mo   18.69    87.96
+8  P3 proposed (alpha=0.10)   6-23 mo   22.58    87.71
+done

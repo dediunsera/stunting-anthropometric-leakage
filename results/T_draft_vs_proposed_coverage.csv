@@ -1,0 +1,7 @@
+partition,version,unassigned_pct,cat1_pct,cat2_pct,cat3_pct,cat4_pct,cat5_pct
+test,Draft (Methods text),0.0,19.463,0.013,1.242,3.94,75.341
+test,Draft (Results Table),30.436,0.103,0.013,1.242,3.94,64.266
+test,Proposed,0.0,13.932,11.21,8.635,26.092,40.131
+hold,Draft (Methods text),0.0,17.373,0.022,1.449,3.513,77.643
+hold,Draft (Results Table),29.004,0.103,0.022,1.449,3.513,65.908
+hold,Proposed,0.0,12.531,11.543,7.338,26.822,41.767

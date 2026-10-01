@@ -1,0 +1,38 @@
+         partition                   category     n  weighted_pct  observed_stunting_pct  mean_haz  pct_haz_below_minus1  mean_p_cal  mean_label_error_prob  category_stability_pct
+0      Locked test      C1 Confirmed stunting  2383        13.932                100.000    -3.111               100.000       0.278                  1.497                  88.242
+1      Locked test    C2 Uncertain, high risk  1969        11.210                 41.053    -1.960               100.000       0.303                 27.627                  69.493
+2      Locked test     C3 Uncertain, low risk  1192         8.635                 37.533    -1.929               100.000       0.156                 27.475                  68.650
+3      Locked test  C4 Not stunted, high risk  4605        26.092                  0.000    -0.588                40.983       0.291                  0.979                  92.007
+4      Locked test   C5 Not stunted, low risk  5302        40.131                  0.000    -0.296                26.359       0.145                  0.568                  94.852
+5  Spatial holdout      C1 Confirmed stunting   925        12.531                100.000    -3.117               100.000       0.287                  1.466                  87.680
+6  Spatial holdout    C2 Uncertain, high risk   818        11.543                 38.071    -1.947               100.000       0.308                 27.467                  68.717
+7  Spatial holdout     C3 Uncertain, low risk   479         7.338                 28.473    -1.908               100.000       0.156                 28.380                  70.310
+8  Spatial holdout  C4 Not stunted, high risk  1950        26.822                  0.000    -0.598                39.866       0.293                  0.834                  92.964
+9  Spatial holdout   C5 Not stunted, low risk  2612        41.767                  0.000    -0.292                25.690       0.144                  0.603                  94.694
+  partition                version  unassigned_pct  cat1_pct  cat2_pct  cat3_pct  cat4_pct  cat5_pct
+0      test   Draft (Methods text)           0.000    19.463     0.013     1.242     3.940    75.341
+1      test  Draft (Results Table)          30.436     0.103     0.013     1.242     3.940    64.266
+2      test               Proposed           0.000    13.932    11.210     8.635    26.092    40.131
+3      hold   Draft (Methods text)           0.000    17.373     0.022     1.449     3.513    77.643
+4      hold  Draft (Results Table)          29.004     0.103     0.022     1.449     3.513    65.908
+5      hold               Proposed           0.000    12.531    11.543     7.338    26.822    41.767
+   sigma_cm  alpha  C1 Confirmed stunting  C2 Uncertain, high risk  C3 Uncertain, low risk  C4 Not stunted, high risk  C5 Not stunted, low risk  remeasure_pct
+0       0.5   0.05                  16.54                     7.23                    5.43                      28.47                     42.33          12.66
+1       0.5   0.10                  17.46                     5.80                    4.26                      29.43                     43.05          10.06
+2       0.5   0.20                  18.97                     3.54                    2.85                      30.77                     43.86           6.40
+3       1.0   0.05                  12.13                    14.33                   10.79                      24.16                     38.59          25.12
+4       1.0   0.10                  13.93                    11.21                    8.63                      26.09                     40.13          19.84
+5       1.0   0.20                  16.50                     7.45                    5.56                      28.27                     42.22          13.01
+6       1.5   0.05                   9.11                    20.77                   16.80                      19.73                     33.60          37.57
+7       1.5   0.10                  11.15                    16.71                   12.78                      22.44                     36.92          29.50
+8       1.5   0.20                  14.03                    11.06                    8.53                      26.19                     40.19          19.59
+cat                    C1 Confirmed stunting  ...  C5 Not stunted, low risk
+draft_meth                                    ...                          
+D1 Stable Stunted                      13.93  ...                      0.00
+D2 Likely Stunted                       0.00  ...                      0.00
+D3 Uncertain                            0.00  ...                      0.00
+D4 Likely Non-Stunted                   0.00  ...                      0.00
+D5 Stable Non-Stunted                   0.00  ...                     40.13
+
+[5 rows x 5 columns]
+done

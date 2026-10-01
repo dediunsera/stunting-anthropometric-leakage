@@ -1,0 +1,122 @@
+feature,domain,auroc_drop
+age_months,Child,0.0396
+I05.a.	Berapa berat badan [NAMA] saat dilahirkan,"Birth, ANC & neonatal care",0.02496
+I07.Berapa panjang badan [NAMA] saat dilahirkan,"Birth, ANC & neonatal care",0.01159
+11. Kepemilikan Jaminan Kesehatan,Maternal / caregiver,0.00576
+sex,Child,0.00565
+J03.b.Lingkar Perut (Cm),Maternal / caregiver,0.00379
+2.Luas lantai bangunan rumah  (BULATKAN DALAM METER PERSEGI),Housing & area,0.00318
+25.Jenis bahan bangunan utama atap rumah terluas?,Housing & area,0.00296
+I16.Apakah [NAMA] pernah diimunisasi?,Child,0.00225
+H29.Dimana tempat persalinan [NAMA ANAK]?,"Birth, ANC & neonatal care",0.00205
+J07.b.Lingkar Lengan Atas (cm),Maternal / caregiver,0.00198
+"I50.e.Jika Ya, berapa kali [Nama] minum susu? Jika 7 kali atau lebih, catat ‘7’",Infant & young child feeding,0.00194
+8. Pendidikan tertinggi,Maternal / caregiver,0.00174
+"J01.b.KHUSUS BALITA, Kondisi kesehatan saat pengukuran?",Child,0.00168
+"150.a.Jika Ya, berapa kali [NAMA] disusui? Jika 7 kali atau lebih, catat ‘7’",Infant & young child feeding,0.00134
+14.Dimanakah tinja tersebut dialirkan?,WASH,0.0013
+1. Banyaknya anggota rumah tangga:,Household demography,0.00117
+"8.Apakah jenis sarana air yang UTAMA digunakan oleh [RUMAH TANGGA]  untuk keperluan SELAIN MINUM seperti untuk mandi, masak, mencuci, dan keperluan hygiene lainnya?",WASH,0.00108
+12.Dimanakah lokasi tempat BAB tersebut?,WASH,0.00081
+19.Bagaimana cara utama dalam menangan sampah [RUMAH TANGGA]?,WASH,0.00066
+1.Apakah jenis sarana air yang UTAMA digunakan oleh [RUMAH TANGGA] untuk keperluan minum saat ini?,WASH,0.00064
+"G21.Apakah [NAMA] MENGUNYAH TEMBAKAU (nginang, nyirih, susur) selama 1 bulan terakhir?",Maternal / caregiver,0.00051
+"I50.j.	Nasi, roti, mie, bubur, jagung, sagu atau makanan lain yang dibuat dari padi-padian seperti beras, gandum, sorgum, dll",Infant & young child feeding,0.00047
+28.Apakah bahan bangunan utama dinding rumah terluas?,Housing & area,0.00044
+1.a. Biaya Transportasi yang dikeluarkan - Puskesmas,Health-service access,0.00039
+7.e. Lainnya,WASH,0.00039
+9. Status Pekerjaan,Maternal / caregiver,0.00031
+I12.i.	Memberitahu cara pemberian ASI yang baik,"Birth, ANC & neonatal care",0.00028
+3. Hubungan dengan KRT,Household demography,0.00028
+18.Apa jenis tempat pengumpulan/ penampungan sampah basah (organik) di dalam rumah? a. Tempat sampah tertutup,WASH,0.00026
+I12.f.Pemberian Vitamin K,"Birth, ANC & neonatal care",0.00025
+I15.f.  Down syndrom,Child,0.00024
+4. Banyaknya Rumah Tangga dalam Bangunan Sensus,Household demography,0.00022
+"I50.g.	Minuman/cairan lainnya (seperti air gula, kental manis, teh, air tajin, susu kedelai, dll)",Infant & young child feeding,0.00022
+17.b. Dapur,WASH,0.00021
+"A12.Dalam 1 tahun terakhir, apakah [NAMA] pernah didiagnosis TBC Paru / Flek paru oleh dokter?",Child,0.0002
+B16.Apakah [NAMA] pernah didiagnosis menderita sakit jantung oleh dokter?,Child,0.00019
+I50.a.	Air Susu ibu (ASI),Infant & young child feeding,0.00018
+1.a.Waktu yang diperlukan dari Rumah ke faskes - Puskesmas,Health-service access,0.00018
+"I50.k.	Labu kuning, wortel, atau ubi jalar yang berwarna kuning atau oranye didalamnya",Infant & young child feeding,0.00017
+I15.b. Hidrocephalus,Child,0.00014
+H09.Apakah [NAMA] memeriksakan kehamilan ke tenaga kesehatan?,"Birth, ANC & neonatal care",0.00014
+20.Jarak sumur/pompa ke tempat pembuangan kotoran/tinja terdekat?,WASH,0.00014
+I12.Apakah  [NAMA] mendapatkan layanan neonatal dari petugas kesehatan pada 0-28 hari ? a.Pengukuran berat badan,"Birth, ANC & neonatal care",0.00013
+I12.d.Perawatan tali pusat,"Birth, ANC & neonatal care",0.00013
+6.e. Dengan penyinaran matahari/UV,WASH,0.00011
+I12.k.	Menanyakan [NAMA] mengalami diare atau tidak,"Birth, ANC & neonatal care",0.00011
+I12.c.Pengukuran suhu tubuh,"Birth, ANC & neonatal care",0.0001
+G03.a.Apakah [NAMA] tahu tentang anak stunting?,Maternal / caregiver,0.0001
+17.Dimana tempat pembuangan air limbah utama dari kamar mandi / tempat cuci dan dapur? a.Kamar mandi,WASH,9e-05
+urban,Housing & area,8e-05
+6.Bagaimana cara pengolahan air tersebut sebelum diminum?  a.	Dimasak,WASH,8e-05
+5. Banyaknya orang dalam Bangunan Sensus,Household demography,8e-05
+H01.Berapa umur [NAMA] ketika pertama kali hamil?,"Birth, ANC & neonatal care",6e-05
+I50.b.	Air putih,Infant & young child feeding,4e-05
+7.b.	Panci/ ember tidak bertutup,WASH,4e-05
+J03.a.Apakah [NAMA] diukur Lingkar Perut?,Maternal / caregiver,4e-05
+G11.Apakah [NAMA] pernah merokok?,Maternal / caregiver,4e-05
+G01.c.	Tidur menggunakan kelambu dengan berinsektisida > 3 tahun,Maternal / caregiver,4e-05
+I15.g. Kelainan jantung bawaan,Child,3e-05
+I15.d. Kembar siam,Child,3e-05
+G01.Apa yang [NAMA] lakukan untuk menghindari gigitan nyamuk?  a.	Tidur menggunakan kelambu tanpa insektisida,Maternal / caregiver,3e-05
+G01.d.	Menggunakan repelen/ bahan-bahan pencegah gigitan nyamuk,Maternal / caregiver,3e-05
+I04.Usia kehamilan saat [NAMA] dilahirkan,"Birth, ANC & neonatal care",2e-05
+I50.r.	Telur,Infant & young child feeding,2e-05
+G07.Apakah [NAMA] biasa mencuci tangan?,Maternal / caregiver,2e-05
+"I50.p.	Ati, ampela, ginjal, jantung, atau jeroan lainnya",Infant & young child feeding,1e-05
+I12.b.Pengukuran panjang badan,"Birth, ANC & neonatal care",1e-05
+"I50.t.	Makanan dari kacang-kacangan (kacang kedelai, kacang merah, kacang tolo, kacang jogo, kacang hijau, kacang babi, kacang tanah, tahu, tempe, dll.)",Infant & young child feeding,0.0
+6.c. Ditambah larutan tawas,WASH,0.0
+J07.a.Apakah [NAMA] diukur Lingkar Lengan Atas (LILA)?,Maternal / caregiver,0.0
+"I50.h.	Yogurt? (tidak termasuk Yakult, vitacarm dll)",Infant & young child feeding,0.0
+1.Apakah ada anggota [RUMAH TANGGA] yang pernah menderita gangguan jiwa?,Household demography,0.0
+B01.Apakah [NAMA] pernah didiagnosis asma oleh dokter?,Child,0.0
+B07.a.Apakah [NAMA] pernah didiagnosis diabetes mellitus (DM)/ kencing manis oleh dokter?,Child,0.0
+"A22.Dalam 1 tahun terakhir, apakah [NAMA] pernah didiagnosis menderita hepatitis oleh dokter?",Child,0.0
+"G32.Dalam 1 bulan terakhir, Apakah [NAMA] mengonsumsi minuman beralkohol?",Maternal / caregiver,0.0
+I15.e. Tidak punya lubang anus,Child,0.0
+I15.c. Bibir sumbing,Child,0.0
+I15.h. Thalasemia,Child,0.0
+I15.Apakah [NAMA] mempunyai kelainan bawaan sejak lahir? a. Kaki pengkor,Child,0.0
+6.d. Ditambah larutan klorin,WASH,-0.0
+"I50.f.	Susu lainnya, seperti: susu bubuk, atau susu segar",Infant & young child feeding,-1e-05
+I37.Apakah saat ini [NAMA] masih disusui/diberi ASI (Air Susu Ibu)?,Infant & young child feeding,-1e-05
+H32.Bagaimana metode persalinan [NAMA ANAK]?,"Birth, ANC & neonatal care",-1e-05
+I09.Apakah [NAMA] mempunyai catatan/ dokumen lingkar kepala?,"Birth, ANC & neonatal care",-1e-05
+G01.b.	Tidur menggunakan kelambu dengan berinsektisida ≤ 3 tahun,Maternal / caregiver,-1e-05
+"I50.l.	Kentang, ubi kayu/ketela pohon/singkong, talas, dan makanan lain dari akar- akaran atau akar umbi",Infant & young child feeding,-2e-05
+I12.g.	Pemberian salep mata,"Birth, ANC & neonatal care",-2e-05
+"I50.n.	Buah-buahan yang kaya vitamin A yang masak, seperti mangga, pepaya, nangka, cempedak, kesemek, melon kuning",Infant & young child feeding,-3e-05
+2. Banyaknya balita (0-59 bulan),Household demography,-3e-05
+6.f.  Ditambah kapur,WASH,-4e-05
+"I50.o.	Buah atau sayuran lainnya (seperti apel, alpukat, kapri, terong, oyong dll)",Infant & young child feeding,-4e-05
+"I50.q.	Daging: ayam, sapi, kambing, babi atau itik",Infant & young child feeding,-4e-05
+I50.u.	Keju atau makanan lain yang terbuat dari susu,Infant & young child feeding,-5e-05
+1.a.Alat Transportasi yang di gunakan - Puskesmas,Health-service access,-5e-05
+1. Apakah [RUMAH TANGGA] mengetahui Apakah [RUMAH TANGGA] MENGETAHUI jenis fasilitas pelayanan kesehatan berikut? Keberadaan a.Puskesmas,Health-service access,-7e-05
+7.d.	Galon,WASH,-7e-05
+11.Apakah [RUMAH TANGGA] memiliki fasilitas tempat buang air besar dan siapa saja yang menggunakan?,WASH,-9e-05
+18. b. tempat sampah terbuka,WASH,-0.0001
+I50.s.	Ikan/kerang segar atau asin,Infant & young child feeding,-0.00013
+I12.j.	Menanyakan masalah dalam pemberian ASI,"Birth, ANC & neonatal care",-0.00013
+I12.e.Pemberian imunisasi Hb-0,"Birth, ANC & neonatal care",-0.00013
+"I50.v.	Makanan padat, setengah padat, makanan lumat lainnya termasuk kue-kue seperti kue pisang, cucur, pancong, permen",Infant & young child feeding,-0.00016
+"I50.m.	Sayuran hijau (bayam, kangkung, katuk, daun singkong, daun labu dll.)",Infant & young child feeding,-0.00017
+21.Apakah tersedia tempat untuk untuk mencuci tangan?,WASH,-0.00017
+I12.l.	Memberitahukan mengenai tanda bahaya pada bayi,"Birth, ANC & neonatal care",-0.00017
+G01.e.	Memakai obat nyamuk (bakar/semprot/elektrik),Maternal / caregiver,-0.00018
+7.Apa jenis wadah penyimpanan air siap minum? a.	Panci/ember bertutup,WASH,-0.00018
+6.b.	Disaring/filtrasi,WASH,-0.00019
+I12.h.	Menanyakan status kesehatan,"Birth, ANC & neonatal care",-0.00019
+"I50.d.	Air kaldu (seperti kaldu ayam, kaldu daging, atau kaldu ikan)",Infant & young child feeding,-0.0002
+I01.Apakah [NAMA] memiliki Buku KIA (Buku Kesehatan Ibu dan Anak)?,"Birth, ANC & neonatal care",-0.00023
+27.Jenis bahan bangunan utama lantai rumah terluas?,Housing & area,-0.0003
+"I50.i.	Makanan bayi bermerek, misalnya Sun, Milna, Cerelac dll",Infant & young child feeding,-0.0003
+I50.c.	Jus atau sari buah,Infant & young child feeding,-0.00031
+26.Jenis bahan bangunan utama plafon/langit-langit rumah terluas,Housing & area,-0.00041
+7.c.	Teko/wadah bermulut kecil,WASH,-0.00042
+3. Banyaknya anggota rumah tangga yang diwawancarai:,Household demography,-0.00048
+I50.e.	Susu formula bayi/balita,Infant & young child feeding,-0.00051
+I10.Salin dari catatan/dokumen lingkar kepala [NAMA],"Birth, ANC & neonatal care",-0.00113

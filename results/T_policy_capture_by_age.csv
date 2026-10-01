@@ -1,0 +1,10 @@
+policy,age_group,burden,capture
+P1 draft +/-0.10 SD,0-5 mo,3.55,23.72
+P1 draft +/-0.10 SD,24-59 mo,5.83,41.34
+P1 draft +/-0.10 SD,6-23 mo,4.76,29.6
+P2 fixed +/-0.38 SD,0-5 mo,13.76,69.86
+P2 fixed +/-0.38 SD,24-59 mo,21.73,91.97
+P2 fixed +/-0.38 SD,6-23 mo,17.95,78.7
+P3 proposed (alpha=0.10),0-5 mo,22.54,89.46
+P3 proposed (alpha=0.10),24-59 mo,18.69,87.96
+P3 proposed (alpha=0.10),6-23 mo,22.58,87.71

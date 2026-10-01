@@ -1,0 +1,8 @@
+step,n
+Raw SKI 2023 under-five records,86364
+Age 0-59 months (0-1856 days),86364
+Length/height measured,85167
+"Excluded biologically implausible HAZ (|HAZ|>6, WHO flag)",961
+Valid HAZ,84206
+"Complete survey design (weight, PSU, strata)",84206
+Final analytic sample (unique child ID),84206

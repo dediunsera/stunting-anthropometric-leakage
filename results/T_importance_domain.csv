@@ -1,0 +1,9 @@
+domain,n_features,auroc_drop,sd
+"Birth, ANC & neonatal care",22,0.0624,0.00572
+Child,17,0.04886,0.0041
+Maternal / caregiver,17,0.01593,0.00194
+Housing & area,6,0.00859,0.00107
+WASH,23,0.00698,0.00224
+Household demography,7,0.00428,0.00204
+Infant & young child feeding,25,0.00257,0.00081
+Health-service access,4,0.00029,0.00092

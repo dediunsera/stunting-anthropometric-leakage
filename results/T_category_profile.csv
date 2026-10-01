@@ -1,0 +1,11 @@
+partition,category,n,weighted_pct,observed_stunting_pct,mean_haz,pct_haz_below_minus1,mean_p_cal,mean_label_error_prob,category_stability_pct,action
+Locked test,C1 Confirmed stunting,2383,13.932,100.0,-3.111,100.0,0.278,1.497,88.242,Refer to health centre for clinical assessment & stunting management; enrol in PMT/nutrition programme
+Locked test,"C2 Uncertain, high risk",1969,11.21,41.053,-1.96,100.0,0.303,27.627,69.493,Priority re-measurement within 14 days by a second trained measurer (standard board); provisional counselling
+Locked test,"C3 Uncertain, low risk",1192,8.635,37.533,-1.929,100.0,0.156,27.475,68.65,Re-measure at the next monthly posyandu session; routine counselling
+Locked test,"C4 Not stunted, high risk",4605,26.092,0.0,-0.588,40.983,0.291,0.979,92.007,"Not stunted: intensified prevention - monthly growth monitoring, counselling on modifiable risks (feeding, WASH, ANC)"
+Locked test,"C5 Not stunted, low risk",5302,40.131,0.0,-0.296,26.359,0.145,0.568,94.852,Routine growth monitoring and health education
+Spatial holdout,C1 Confirmed stunting,925,12.531,100.0,-3.117,100.0,0.287,1.466,87.68,Refer to health centre for clinical assessment & stunting management; enrol in PMT/nutrition programme
+Spatial holdout,"C2 Uncertain, high risk",818,11.543,38.071,-1.947,100.0,0.308,27.467,68.717,Priority re-measurement within 14 days by a second trained measurer (standard board); provisional counselling
+Spatial holdout,"C3 Uncertain, low risk",479,7.338,28.473,-1.908,100.0,0.156,28.38,70.31,Re-measure at the next monthly posyandu session; routine counselling
+Spatial holdout,"C4 Not stunted, high risk",1950,26.822,0.0,-0.598,39.866,0.293,0.834,92.964,"Not stunted: intensified prevention - monthly growth monitoring, counselling on modifiable risks (feeding, WASH, ANC)"
+Spatial holdout,"C5 Not stunted, low risk",2612,41.767,0.0,-0.292,25.69,0.144,0.603,94.694,Routine growth monitoring and health education

@@ -1,0 +1,10 @@
+characteristic,n,weighted_pct,stunting_w_pct
+All,84206,100.0,21.98
+Age 0-5 mo,6530,7.72,16.55
+Age 6-23 mo,22921,27.2,20.62
+Age 24-59 mo,54755,65.09,23.19
+Boys,43439,50.96,23.08
+Girls,40767,49.04,20.83
+Urban,42792,57.31,20.17
+Rural,41414,42.69,24.4
+Position mismatch corrected,10063,11.76,24.41

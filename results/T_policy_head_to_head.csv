@@ -1,0 +1,13 @@
+sigma_cm,policy,remeasure_burden_pct,errors_captured_pct,yield_pct,misclass_before_pct,misclass_after_pct,error_reduction_pct
+0.5,P0 No re-measurement (hard threshold),0.0,0.0,0.0,3.291,3.291,0.0
+0.5,P1 Draft fixed band HAZ -2 +/- 0.10 SD,5.504,61.951,37.048,3.291,2.519,23.46
+0.5,P2 Fixed band +/- 0.18 SD (budget-matched to P3),9.819,84.297,28.255,3.291,2.373,27.913
+0.5,P3 Proposed per-child band (alpha = 0.1),10.312,87.855,28.04,3.291,2.349,28.642
+1.0,P0 No re-measurement (hard threshold),0.0,0.0,0.0,6.402,6.402,0.0
+1.0,P1 Draft fixed band HAZ -2 +/- 0.10 SD,5.37,36.09,43.028,6.402,5.432,15.149
+1.0,P2 Fixed band +/- 0.38 SD (budget-matched to P3),20.073,86.236,27.506,6.402,4.646,27.434
+1.0,P3 Proposed per-child band (alpha = 0.1),20.061,88.092,28.114,6.402,4.621,27.82
+1.5,P0 No re-measurement (hard threshold),0.0,0.0,0.0,9.376,9.376,0.0
+1.5,P1 Draft fixed band HAZ -2 +/- 0.10 SD,5.206,25.366,45.691,9.376,8.34,11.041
+1.5,P2 Fixed band +/- 0.56 SD (budget-matched to P3),28.376,85.527,28.259,9.376,6.848,26.956
+1.5,P3 Proposed per-child band (alpha = 0.1),28.825,87.959,28.609,9.376,6.794,27.538

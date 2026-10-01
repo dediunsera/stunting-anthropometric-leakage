@@ -1,0 +1,5 @@
+model,cv_scheme,oof_auroc,test_auroc,optimism
+"HGB weighted, PSU-grouped CV (proposed)",grouped,0.6504,0.6594,-0.009
+HGB weighted + child height & weight (LEAKY),grouped,0.9977,0.9986,-0.0008
+"HGB weighted, random (non-grouped) CV",random,0.6544,0.6594,-0.005
+"HGB weighted, without birth anthropometry",grouped,0.6263,0.6304,-0.0041

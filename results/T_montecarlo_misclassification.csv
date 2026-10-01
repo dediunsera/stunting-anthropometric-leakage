@@ -1,0 +1,4 @@
+sigma_cm,misclass_pct_mean,misclass_pct_lo,misclass_pct_hi,false_stunted_pct_mean,false_stunted_pct_lo,false_stunted_pct_hi,missed_stunted_pct_mean,missed_stunted_pct_lo,missed_stunted_pct_hi,prev_obs_pct_mean,prev_obs_pct_lo,prev_obs_pct_hi,misclass_0-5 mo_pct_mean,misclass_0-5 mo_pct_lo,misclass_0-5 mo_pct_hi,misclass_6-23 mo_pct_mean,misclass_6-23 mo_pct_lo,misclass_6-23 mo_pct_hi,misclass_24-59 mo_pct_mean,misclass_24-59 mo_pct_lo,misclass_24-59 mo_pct_hi
+0.5,3.275,3.115,3.423,1.903,1.788,2.023,1.373,1.287,1.493,22.509,22.333,22.655,3.321,2.759,3.925,3.764,3.393,4.145,3.066,2.881,3.263
+1.0,6.4,6.198,6.599,3.872,3.679,4.042,2.528,2.366,2.668,23.322,23.11,23.578,6.783,6.051,7.546,7.279,6.868,7.636,5.987,5.738,6.245
+1.5,9.377,9.126,9.606,5.872,5.684,6.06,3.504,3.353,3.653,24.346,24.081,24.626,10.381,9.379,11.412,10.637,10.169,11.161,8.731,8.364,9.03
